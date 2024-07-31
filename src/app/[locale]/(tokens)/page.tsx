@@ -21,7 +21,7 @@ export default async function Home() {
             {t('forMoreInformation')}
           </a>
           <a className="text-xl font-bold text-zinc-500">
-            contato@tokenizei.online
+            help@betteruseblockchain.com
           </a>
         </div>
       </div>
