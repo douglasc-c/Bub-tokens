@@ -185,7 +185,7 @@ export default function Sections({ params }: SectionsProps) {
 
           <div className="w-2" />
 
-          <div className="flex flex-col md:w-1/2">
+          <div className="flex flex-col md:w-1/2 mt-2 md:mt-0">
             <div className="flex flex-col p-5 bg-gray-50 rounded-lg border border-gray-200">
               <div className="flex flex-col">
                 <a className="font-semibold">{params.tokenInformation}</a>

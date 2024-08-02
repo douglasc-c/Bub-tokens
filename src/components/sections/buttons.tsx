@@ -28,7 +28,7 @@ export default function SectionsButton({
   }
 
   return (
-    <div className="flex flex-row w-full items-center justify-between">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full items-center justify-between">
       <Section
         params={{
           title: texts.tokenSummary,
@@ -37,8 +37,6 @@ export default function SectionsButton({
           onClick: () => handleButtonClick(texts.tokenSummary),
         }}
       />
-
-      <div className="w-10" />
 
       <Section
         params={{
@@ -49,8 +47,6 @@ export default function SectionsButton({
         }}
       />
 
-      <div className="w-10" />
-
       <Section
         params={{
           title: texts.structure,
@@ -59,8 +55,6 @@ export default function SectionsButton({
           onClick: () => handleButtonClick(texts.structure),
         }}
       />
-
-      <div className="w-10" />
 
       <Section
         params={{
