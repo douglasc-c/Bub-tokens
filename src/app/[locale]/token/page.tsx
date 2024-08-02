@@ -127,20 +127,25 @@ export default async function Token() {
           </div>
 
           <div className="flex flex-row p-5 mb-2 mt-2 bg-gray-50 rounded-lg border border-gray-200">
-            <div className="hidden md:flex items-center p-2 bg-white rounded-full mr-3">
+            {/* <div className="hidden md:flex items-center justify-center p-2 bg-white rounded-full mr-3 w-12 max-h-12">
               <Image
                 src={`/images/svg/protect.svg`}
                 alt="Icon"
                 width={30}
                 height={30}
               />
-            </div>
-            <div className="flex flex-col justify-center ">
-              <a className="font-semibold">{t('contract')}</a>
-              <a className="font-light text-base break-all">
-                0x3f349bbafec1551819b8be1efea2fc46ca749a46
-              </a>
-            </div>
+            </div> */}
+            <a
+              className="flex flex-col justify-center"
+              href="https://explorer.perawallet.app/asset/2210569601/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="font-semibold">{t('contract')}</span>
+              <span className="font-light text-base break-all">
+                3NBFO7ZIIAIOAUG7TFITAHL6XNOYCGJFECEIXFGYQF7SP7VDOFNOS2M6RY
+              </span>
+            </a>
           </div>
         </div>
       </div>
